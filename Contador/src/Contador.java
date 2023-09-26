@@ -14,7 +14,7 @@ public class Contador {
         } catch (ParametrosInvalidosException exception) {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro");
 
-        } catch (InputMismatchException e) {
+        } catch (InputMismatchException exception) {
             System.out.println("É necessário que seja digitado um número inteiro e não um texto.");
         }
 
